@@ -1,0 +1,18 @@
+
+print("========================================")
+print("Relátorio do Pipeline Rag")
+print("========================================")
+
+print("\nPERGUNTA Relaciona ao Nicho que escolhi de Direito")
+print(pergunta_cliente)
+
+print("\nDocumento HYDE (gerado pelo LLM)")
+print(documento_tecnico)
+
+print("\nTOP 10 Recuperados (Bi-Encoder)")
+for i, doc in enumerate(top_10, start=1):
+    print(f"  {i}. {doc}")
+
+print("\nTOP 3 Finais (Cross-Encoder)")
+for i, (doc, score_bi, score_cross) in enumerate(ranking_final[:3], start=1):
+    print(f"  {i}. [{score_cross:.4f}] {doc}")
