@@ -91,4 +91,10 @@ Execute todas as células. O pipeline imprimirá o relatório completo conforme 
 **Google Colab:**
 [https://colab.research.google.com/drive/10ZvxEcY2FcNKcEvSCzUa-kNkLHOjzCu2?usp=sharing]
 
+## Versionamento
+
+O projeto utiliza o Git para controle de versão. A entrega final desta atividade foi devidamente versionada e identificada:
+* Versão atual: v1.0
+* Status: Concluído e sincronizado com o repositório remoto.
+
 
