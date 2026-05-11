@@ -49,13 +49,13 @@ O sistema foi testado com uma query real e obteve os seguintes resultados
 :
 Pergunta do Usuário: "me botaram pra fora e não pagaram meus direitos"
 
-** 1. Documento Hipotético (HyDE)
+ 1. Documento Hipotético (HyDE)
 O LLM gerou um texto técnico focado em Rescisão Contratual e Violação de Direitos, detalhando multas de 40% do FGTS, saldo de salário e férias vencidas para servir de base para a busca
 
-** 2. Recuperação e Re-ranking
+ 2. Recuperação e Re-ranking
 O pipeline recuperou 10 documentos via Similaridade de Cosseno (Bi-Encoder) e refinou para os 3 melhores via Cross-Encoder
 
-** Top 3 Finais Gerados:
+ Top 3 Finais Gerados:
 Extrapolação habitual da jornada de trabalho... (Score: -10.6447)
 
 Diferença salarial indevida... (Score: -10.8577)
