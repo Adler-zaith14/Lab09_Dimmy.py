@@ -22,7 +22,7 @@ Declaração: Partes deste laboratório foram geradas/complementadas com IA, rev
 
 ## Análise Técnica: Por que usar HNSW?
 
-**Conforme solicitado na tarefa analítica, avaliei o impacto dos hiperparâmetros do índice HNSW (hnsw:M e hnsw:construction_ef)
+Conforme solicitado na tarefa analítica, avaliei o impacto dos hiperparâmetros do índice HNSW (hnsw:M e hnsw:construction_ef)
 :
 Eficiência vs. Memória: O HNSW consome mais memória RAM que uma busca KNN exata porque armazena uma estrutura de grafo hierárquico adicional
 
