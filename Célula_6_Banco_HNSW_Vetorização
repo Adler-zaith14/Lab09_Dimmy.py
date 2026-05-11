@@ -1,0 +1,20 @@
+cliente_chroma = chromadb.Client()
+
+colecao_juridica = cliente_chroma.create_collection(
+    name="juris_rag_trabalhista",
+    metadata={
+        "hnsw:space": "cosine",
+        "hnsw:M": 32,
+        "hnsw:construction_ef": 200
+    }
+)
+
+ids = [f"doc_{i}" for i in range(len(documentos))]
+
+colecao_juridica.add(
+    documents=documentos,
+    embeddings=embeddings,
+    ids=ids
+)
+
+print(f"Coleção criada com {len(documentos)} documentos indexados.")
