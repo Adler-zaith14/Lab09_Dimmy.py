@@ -1,0 +1,19 @@
+def gerar_documento_tecnico(pergunta_cliente):
+
+    resposta = client.chat.completions.create(
+        model="llama-3.3-70b-versatile",
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "Transforme a fala informal do trabalhador "
+                    "em linguagem jurídica trabalhista técnica."
+                )
+            },
+            {
+                "role": "user",
+                "content": pergunta_cliente
+            }
+        ]
+    )
+    return resposta.choices[0].message.content
