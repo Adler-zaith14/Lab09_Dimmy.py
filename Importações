@@ -1,0 +1,8 @@
+!pip install -q sentence-transformers chromadb groq
+
+import chromadb
+
+from groq import Groq
+
+from sentence_transformers import SentenceTransformer
+from sentence_transformers.cross_encoder import CrossEncoder
