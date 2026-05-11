@@ -1,0 +1,10 @@
+documentos = [item["texto"] for item in manuais_trabalhistas]
+
+modelo_embedding = SentenceTransformer(
+    "all-MiniLM-L6-v2",
+    device="cpu"
+)
+
+embeddings = modelo_embedding.encode(
+    documentos
+).tolist()
