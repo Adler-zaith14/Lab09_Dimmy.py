@@ -66,13 +66,13 @@ Fraude na relação empregatícia mediante pejotização... (Score: -10.9050)
 
 ## Estrutura do Repositório
 
-** Instalação: Setup do chromadb, sentence-transformers e groq
+ 1.)Instalação: Setup do chromadb, sentence-transformers e groq
 
-** Indexação: Criação da coleção juris_rag_trabalhista com 20 documentos indexados
+2.)Indexação: Criação da coleção juris_rag_trabalhista com 20 documentos indexados
 
-** Funções Core: Implementação do gerar_documento_tecnico (HyDE) e do loop de re-ranking
+3.)Funções Core: Implementação do gerar_documento_tecnico (HyDE) e do loop de re-ranking
 
-** Relatório: Script final que imprime o comparativo entre Bi-Encoder e Cross-Encoder
+ 4.)Relatório: Script final que imprime o comparativo entre Bi-Encoder e Cross-Encoder
 
 
 ---
@@ -80,7 +80,9 @@ Fraude na relação empregatícia mediante pejotização... (Score: -10.9050)
 ## Como Executar
 
 Abra o notebook no Google Colab.
+
 Configure sua GROQ_API_KEY nos Secrets do ambiente
+
 Execute todas as células. O pipeline imprimirá o relatório completo conforme mostrado na seção de resultados deste README
 
 
