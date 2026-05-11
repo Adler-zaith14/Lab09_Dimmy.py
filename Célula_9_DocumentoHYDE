@@ -1,0 +1,8 @@
+client = Groq(api_key=GROQ_API_KEY)
+
+documento_tecnico = gerar_documento_tecnico(
+    pergunta_cliente
+)
+
+print("=== DOCUMENTO HIPOTÉTICO (HyDE) ===")
+print(documento_tecnico)
