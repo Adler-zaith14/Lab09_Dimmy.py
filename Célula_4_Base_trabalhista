@@ -1,0 +1,82 @@
+manuais_trabalhistas = [
+    {
+        "categoria": "Rescisão",
+        "texto": "Rescisão contratual sem quitação integral das verbas rescisórias previstas na CLT."
+    },
+    {
+        "categoria": "Hora Extra",
+        "texto": "Extrapolação habitual da jornada de trabalho sem pagamento adicional."
+    },
+    {
+        "categoria": "Assédio Moral",
+        "texto": "Exposição vexatória reiterada no ambiente corporativo."
+    },
+    {
+        "categoria": "FGTS",
+        "texto": "Ausência de recolhimento fundiário durante o vínculo empregatício."
+    },
+    {
+        "categoria": "Vínculo Empregatício",
+        "texto": "Caracterização de subordinação jurídica em contrato informal."
+    },
+    {
+        "categoria": "Acidente de Trabalho",
+        "texto": "Lesão ocupacional decorrente de atividade laboral sem equipamento adequado."
+    },
+    {
+        "categoria": "Insalubridade",
+        "texto": "Exposição contínua a agentes nocivos acima dos limites legais."
+    },
+    {
+        "categoria": "Periculosidade",
+        "texto": "Atividade exercida em contato permanente com materiais inflamáveis."
+    },
+    {
+        "categoria": "Banco de Horas",
+        "texto": "Compensação irregular de horas trabalhadas sem acordo coletivo válido."
+    },
+    {
+        "categoria": "Demissão",
+        "texto": "Dispensa sem justa causa realizada sem aviso prévio regular."
+    },
+    {
+        "categoria": "Férias",
+        "texto": "Fracionamento irregular do período de férias do trabalhador."
+    },
+    {
+        "categoria": "Décimo Terceiro",
+        "texto": "Inadimplemento proporcional da gratificação natalina."
+    },
+    {
+        "categoria": "PJ Fraudulento",
+        "texto": "Fraude na relação empregatícia mediante pejotização ilícita."
+    },
+    {
+        "categoria": "Intervalo Intrajornada",
+        "texto": "Supressão parcial do intervalo obrigatório para alimentação."
+    },
+    {
+        "categoria": "Equiparação Salarial",
+        "texto": "Diferença salarial indevida entre empregados da mesma função."
+    },
+    {
+        "categoria": "Estabilidade",
+        "texto": "Dispensa irregular durante período de estabilidade provisória."
+    },
+    {
+        "categoria": "Home Office",
+        "texto": "Ausência de controle formal da jornada em regime remoto."
+    },
+    {
+        "categoria": "Desvio de Função",
+        "texto": "Execução contínua de atividades distintas da função contratada."
+    },
+    {
+        "categoria": "Dano Moral",
+        "texto": "Violação da dignidade do trabalhador no ambiente laboral."
+    },
+    {
+        "categoria": "Terceirização",
+        "texto": "Responsabilidade subsidiária em contratos de terceirização."
+    }
+]
