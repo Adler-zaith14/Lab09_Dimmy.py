@@ -16,7 +16,7 @@ Este laboratório foi desenvolvido de forma individual, com base nos materiais d
 ## Por que o Colab foi usado
 
 Este laboratório foi desenvolvido de forma individual, focado na implementação de um sistema de busca semântica para o nicho de Direito Trabalhista. O projeto utiliza técnicas avançadas para mitigar a distância semântica entre a linguagem coloquial do usuário e o jargão jurídico.
-Declaração: Partes deste laboratório foram geradas/complementadas com IA, revisadas e validadas por [Formação de estrutura textual do README, além de apoio no versionamento, geramento da chave do token no código como passo a passo pra colocar e rodar, fora o uso de pesquisas de frases relacionada ao nicho que escolhi]
+Declaração: Partes deste laboratório foram geradas/complementadas com IA, revisadas e validadas nas respectivas partes: [Formação de estrutura textual do README, além de apoio no versionamento, geramento da chave do token no código como passo a passo pra colocar e rodar, fora o uso de pesquisas de frases relacionada ao nicho que escolhi]
 
 ---
 
