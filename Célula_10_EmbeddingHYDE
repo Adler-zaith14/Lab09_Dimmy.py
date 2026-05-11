@@ -1,0 +1,3 @@
+embedding_hyde = modelo_embedding.encode(
+    documento_tecnico
+).tolist()
