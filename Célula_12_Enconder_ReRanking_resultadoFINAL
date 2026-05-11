@@ -1,0 +1,35 @@
+cross_encoder = CrossEncoder(
+    "cross-encoder/ms-marco-MiniLM-L-6-v2"
+)
+
+pares = [
+    [pergunta_cliente, doc]
+    for doc in top_10
+]
+
+scores_cross_encoder = cross_encoder.predict(pares)
+
+ranking_final = list(
+    zip(
+        top_10,
+        scores_bi_encoder,
+        scores_cross_encoder
+    )
+)
+
+ranking_final = sorted(
+    ranking_final,
+    key=lambda x: x[2],
+    reverse=True
+)
+
+print("=== TOP 3 FINAIS (após Cross-Encoder) ===")
+for i, (doc, score_bi, score_cross) in enumerate(
+    ranking_final[:3],
+    start=1
+):
+    print(f"Top {i}")
+    print(f"Bi-Encoder:    {score_bi:.4f}")
+    print(f"Cross-Encoder: {score_cross:.4f}")
+    print(doc)
+    print()
