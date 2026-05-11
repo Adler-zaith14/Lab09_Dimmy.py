@@ -1,0 +1,17 @@
+resultado_busca = colecao_juridica.query(
+    query_embeddings=[embedding_hyde],
+    n_results=10
+)
+
+top_10 = resultado_busca["documents"][0]
+scores_bi_encoder = resultado_busca["distances"][0]
+
+print("=== TOP 10 RECUPERADOS (Bi-Encoder / HNSW) ===")
+for i, (doc, score) in enumerate(
+    zip(top_10, scores_bi_encoder),
+    start=1
+):
+    print(f"Top {i}")
+    print(f"Score Bi-Encoder: {score:.4f}")
+    print(doc)
+    print()
